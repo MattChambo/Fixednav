@@ -44,3 +44,21 @@ main {
 .warning i {
 	left: 17px;
 }
+
+.feature {
+	background-color: white;
+	width: 300px;
+	padding: 10px;
+	position: relative;
+	padding-top: 30px;
+	margin-top: 80px;
+
+}
+
+.feature img {
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+	border-radius: 50%;
+	box-shadow: 0 3px 10px 0 rgba(0,0,0,.5);
+}
