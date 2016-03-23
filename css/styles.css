@@ -3,3 +3,44 @@
 }*/
 
 /* Comment goes here */
+
+main {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #aaaaaa;
+	padding: 10px;
+}
+
+.tip {
+	
+	padding: 10px;
+	padding-left: 40px;
+	position: relative;
+	left: -20px;
+	margin-bottom: 10px;
+}
+
+.tip i {
+	font-size: 24px;
+	position: absolute;
+	top: 30px;
+	left: 12px;
+}
+
+.info {
+	background-color: #00b9ff;
+}
+
+.success {background-color: green;
+}
+
+.warning {background-color: red;
+}
+
+.success i {
+	left: 17px;
+}
+
+.warning i {
+	left: 17px;
+}
